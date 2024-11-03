@@ -1,0 +1,211 @@
+/* Global Body Padding for Fixed Header and Footer */
+body {
+    padding-top: 80px;
+    padding-bottom: 60px;
+  }
+  
+  /* ---------------------- Header Styles ---------------------- */
+  .header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #eaeaea;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000; /* Ensure it stays on top */
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .navbar-brand:hover {
+    text-decoration: underline;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    color: #007bff;
+    margin-left: 15px;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* ---------------------- Footer Styles ---------------------- */
+  .footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #eaeaea;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+  
+  .footer .links {
+    margin-bottom: 15px;
+  }
+  
+  .footer .links a {
+    color: #007bff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .footer .links a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  /* ---------------------- Landing Page Styles ---------------------- */
+  .landing-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    min-height: 100vh;
+  }
+  
+  .landing-text {
+    max-width: 50%;
+  }
+  
+  .landing-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .landing-text p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+  }
+  
+  .landing-text ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .landing-text ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
+  .landing-text .btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+  }
+  
+  .landing-image img {
+    max-width: 500px;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .landing-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .landing-text, .landing-image {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
+    /* ---------------------- Location List Styles ---------------------- */
+    body {
+      padding-top: 80px;
+      padding-bottom: 60px;
+    }
+  
+    .location-list-container {
+      background-color: #f8f9fa;
+      padding: 30px;
+      border-radius: 8px;
+    }
+  
+    .location-box {
+      background-color: #ffffff;
+      border: 1px solid #eaeaea;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+  
+    .location-name {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+  
+    .actions .btn {
+      font-size: 1rem;
+      padding: 5px 15px;
+    }
+  
+    .location-box p {
+      margin: 5px 0;
+    }
+  
+    .actions {
+      margin-top: 15px;
+    }
+  
+  /* ---------------------- Edit Location Styles ---------------------- */
+  .edit-location-container {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+  }
+
+  .form-label {
+    font-weight: bold;
+  }
+
+  .form-control {
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .btn {
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .ql-editor {
+    min-height: 200px;
+    max-height: 500px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+  }
+
+  .ql-toolbar {
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+  }
+
+  .row.g-3 {
+    margin-bottom: 15px;
+  }
